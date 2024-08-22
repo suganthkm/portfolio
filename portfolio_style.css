@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRepL6xG0La0OyvQ-CTH4n3tf--QvJtmB1ccQ&s');
+
+}
+
+header {
+    font-family: cursive;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.topnav {
+    display:flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: rgb(131, 170, 233);
+    color: black;
+    
+    width: 100%;
+    margin-left: 0;
+
+}
+div.topnav{
+    position:sticky;
+    top: 0px;
+   
+}
+
+a {
+    border-style: solid;
+    border-color:grey;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+
+section {
+    padding: 20px;
+}
+
+h2,
+h3 {
+    color: black;
+}
+
+
+.flex-container {
+
+    display: flex;
+    justify-content: center;
+background-color: grey;
+padding:30px;
+}
+
+.flex-container>div {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+table,
+th,
+td {
+    
+    border: 1px double black;
+    padding: 20px;
+    border-collapse: collapse;
+}
+
+.education {
+    border-radius: 40px;
+
+    text-align: left;
+    background-color: white;
+    width: 40%;
+    padding: 50px;
+    padding-top: 5px;
+
+}
+
+.about {
+
+    border-radius: 40px;
+    text-align: justify;
+    line-height: 40px;
+    font-size: larger;
+    background-color: beige;
+    width: 50%;
+    padding: 50px;
+    padding-top: 5px;
+    margin-left: 700px;
+}
+
+.projects {
+    border-radius: 40px;
+    text-align: justify;
+    background-color: beige;
+    width: 50%;
+    padding: 50px;
+    padding-top: 5px;
+    margin-left: 700px;
+    margin-right: 0;
+}
+
+.education:hover {
+
+    margin-left: 200px;
+    border-radius: 20px;
+}
+
+.projects:hover {
+    background-color: aquamarine;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+
+.about:hover {
+    background-color: aquamarine;
+    margin-left: 500px;
+    border-radius: 20px;
+}
+a:hover{
+    background-color: beige;
+}
